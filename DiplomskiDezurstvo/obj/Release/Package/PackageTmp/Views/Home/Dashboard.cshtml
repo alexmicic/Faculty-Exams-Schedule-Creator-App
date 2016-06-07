@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = "Kontrolna tabla";
+}
+
+@section scripts {
+    <script src="~/App/Dashboard/App.js"></script>
+}
+
+@{
+    String modelName = "";
+}
+@if (User.IsInRole("Admin"))
+{
+    modelName = "dashboardViewModel"; 
+}
+else
+{
+    //model = "dashboardUserViewModel";
+    modelName = "dashboardViewModel";
+}
+
+<div class="dashboard jumbotron" data-ng-controller="@modelName">
+    <h3>Dobrodošli
+        @if (User.IsInRole("Admin"))
+        {
+            <span>Admin</span>
+        }
+        else
+        {
+            <span>@User.Identity.Name</span>
+        }
+    </h3>
+    <div data-ng-view></div>
+</div>

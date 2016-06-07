@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Dobrodošli";
+}
+
+<div class="jumbotron index-page" data-ng-controller="indexViewModel">
+    <p class=" text-center">
+    Dobrodošli na naslovnu stranu aplikacije za vođenje evidencije o dežurstvu asistenata.
+    @if (!User.Identity.IsAuthenticated)
+    {
+        <span>Za nastavak molimo ulogujte se.</span>
+    }
+    </p>
+</div>
+

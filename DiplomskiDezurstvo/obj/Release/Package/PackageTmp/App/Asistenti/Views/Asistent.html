@@ -1,0 +1,36 @@
+﻿<h4>Ažuriranje podataka</h4>
+<div class="entry-form">
+    <form name="editUserForm" id="editUserForm">
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">Ime</span>
+            <input type="text" class="form-control" aria-describedby="basic-addon1" data-ng-model="asistent.Ime" required>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon2">Prezime</span>
+            <input type="text" class="form-control" aria-describedby="basic-addon2" data-ng-model="asistent.Prezime" required>
+        </div>
+        <!--<div class="input-group">
+            <span class="input-group-addon" id="basic-addon3">Email</span>
+            <input type="text" class="form-control" aria-describedby="basic-addon3" data-ng-model="asistent.Email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" required>
+        </div>-->
+        <!--<div class="input-group">
+            <span class="input-group-addon" id="basic-addon4">Sifra</span>
+            <input type="text" id="userPassword" class="form-control" aria-describedby="basic-addon4" data-ng-model="asistent.Password" readonly>
+        </div>-->
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon5">Telefon</span>
+            <input type="text" class="form-control" aria-describedby="basic-addon5" data-ng-model="asistent.Telefon">
+        </div>
+        <div class="input-group">
+            <button class="btn btn-success" type="submit" data-ng-click="updateUser()" data-ng-disabled="editUserForm.$invalid">Ažuriraj</button>
+        </div>
+    </form>
+</div>
+<div class="alert alert-success" role="alert" data-ng-show="UserUpdateSucess">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    Podaci su uspešno ažurirani.
+</div>
+<div class="alert alert-danger" role="alert" data-ng-show="UserUpdateFailed">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    Greška prilikom ažuriranja, molimo pokušajte ponovo.
+</div>

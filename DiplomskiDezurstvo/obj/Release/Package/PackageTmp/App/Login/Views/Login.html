@@ -1,0 +1,20 @@
+﻿<form name="loginForm" id="loginForm">
+    <div class="input-group input-group-lg">
+        <span class="input-group-addon" id="basic-addon1">
+            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+        </span>
+        <input type="text" class="form-control" data-ng-model="username" placeholder="Email" aria-describedby="basic-addon1" required>
+    </div>
+    <div class="input-group input-group-lg">
+        <span class="input-group-addon" id="basic-addon1">
+            <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+        </span>
+        <input type="password" class="form-control" data-ng-model="password" placeholder="Password" aria-describedby="basic-addon1" required>
+    </div>
+    <button type="submit" class="btn btn-default btn-lg" data-ng-click="userLogin()">
+        <span class="spinner" data-ng-show="loading"><i class="glyphicon glyphicon-refresh"></i></span>
+        Prijavi me
+    </button>
+</form>
+
+<div class="alert alert-danger" role="alert" data-ng-show="message"><strong>Greska:</strong> {{message}}</div>

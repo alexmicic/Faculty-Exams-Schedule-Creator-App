@@ -1,0 +1,188 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700&subset=latin,latin-ext);
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    transition:all .3s;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.index-page, .login {
+    background:url(bg.jpg) no-repeat center top;
+    background-size:contain;
+    min-height:100%;
+}
+@media screen and (min-width:1024px){
+    .index-page, .login{
+        min-height:400px;
+    }
+    .index-page p{margin-top:80px;}
+}
+.container .jumbotron.index-page{
+    border-radius:0 0 5px 5px;
+}
+.index-page p{background:rgba(255,255,255,.5); display:block; padding:20px;}
+.navbar-inverse{
+    background:#344a5f;
+    border-color:#243442;
+}
+
+.navbar-inverse .navbar-brand{color:#fff;}
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus{background:#3071a9;}
+.navbar-inverse .navbar-nav > li > a{color:#fff;}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:active{background:#3071a9;}
+.navbar-inverse .navbar-nav > li > a .glyphicon{margin-right:5px;}
+
+.login{
+    /*background:#297fb8;*/
+    padding:20px;
+}
+.login form{
+    max-width:320px;
+    margin:auto;
+    width:100%;
+    margin-bottom:20px;
+    text-align:center;
+}
+a.password-recovery{margin-top:20px; display:inline-block;}
+
+@media screen and (min-width:1024px) {
+    .login form{
+        margin-top:70px;
+    }
+}
+.login .input-group{
+    margin-bottom:20px;
+}
+
+.login form .btn{
+    width:100%;
+    background:#1e5d88;
+    color:#fff;
+    border-color:#1e5d88;   
+}
+
+.login form .btn:hover{
+    opacity:.75;
+}
+
+@-moz-keyframes spin2 {
+    from { -moz-transform: rotate(0deg);}
+    to { -moz-transform: rotate(360deg);}
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+.login form .btn .spinner .glyphicon{
+    display: inline-block;
+    -animation: spin .7s infinite linear;
+    -moz-animation: spin2 .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+
+.login form .btn:hover{
+    opacity:.75;
+}
+
+.entry-form{
+    width:100%;
+}
+.entry-form .input-group{
+    margin-bottom:10px;
+}
+.entry-form .input-group .input-group-addon{
+    min-width:100px;
+}
+
+.table > thead > tr > th, 
+.table > tbody > tr > th, 
+.table > tfoot > tr > th, 
+.table > thead > tr > td, 
+.table > tbody > tr > td, 
+.table > tfoot > tr > td{
+    vertical-align: middle;
+}
+
+.glyphicon{
+    top:0;
+    vertical-align:middle;
+}
+
+.alert{
+    margin-top:15px;
+}
+
+.add-entry{
+    margin-bottom:10px;
+}
+.add-entry .glyphicon-chevron-up{
+    display:none;
+}
+.add-entry.up .glyphicon-chevron-down{
+    display:none;
+}
+.add-entry.up .glyphicon-chevron-up{
+    display:inline-block;
+}
+.add-entry span{
+    vertical-align:middle;
+    padding-right:10px;
+}
+
+ul.list-raspored{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+@media (min-width: 992px) {
+    .modal-lg {
+        width: 1170px;
+    }
+}
+
+.aktivnosti-list{
+    box-shadow:0px 0px 10px rgba(0,0,0,.1);
+    border-top:3px solid #fff;
+}
+
+.filter-table input {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.user-message{
+    resize:none;
+    min-height:150px;
+}

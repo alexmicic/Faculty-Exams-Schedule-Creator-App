@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Asistenti";
+}
+
+@section scripts {
+    <script src="~/App/Asistenti/App.js"></script>
+    <script src="~/App/Asistenti/ViewModels/AsistentViewModel.js"></script>
+}
+
+
+<div class="asistenti container">
+    <div class="page-header">
+        <h3>@ViewBag.Title</h3>
+    </div>
+    <div data-ng-view></div>
+</div>

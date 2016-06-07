@@ -1,0 +1,49 @@
+﻿<h4>Ažuriranje rasporeda za dan {{rasporedDatum}}</h4>
+<form name="updateRasporedDanForm" id="updateRasporedDanForm">
+    <div class="table-responsive">
+        <table class="table table-striped table-hover raspored-list">
+            <thead>
+                <tr>
+                    <th>Sala</th>
+                    <th>Predmeti</th>
+                    <th>Asistenti</th>
+                    <th>Datum</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="width:10%;">
+                        <select id="AddListaSala" name="IzborSale" data-ng-model="AddListaSala" required multiple="multiple" style="width:100%">
+                            <option data-ng-repeat="sala in AddListaSala" value="{{sala.SalaID}}">{{sala.Naziv}}</option>
+                        </select>
+                    </td>
+                    <td style="width:35%;">
+                        <select id="AddListaPredmeta" name="IzborPredmeta" data-ng-model="AddListaPredmeta" required multiple="multiple" style="width:100%">
+                            <option data-ng-repeat="predmet in AddListaPredmeta" value="{{predmet.PredmetID}}">{{predmet.Naziv}}</option>
+                        </select>
+                    </td>
+                    <td style="width:40%;">
+                        <select id="AddListaAsistenta" name="IzborAsistenta" data-ng-model="AddListaAsistenta" required multiple="multiple" style="width:100%">
+                            <option data-ng-repeat="asistent in AddListaAsistenta" value="{{asistent.AsistentID}}">{{asistent.Ime}} {{asistent.Prezime}}</option>
+                        </select>
+                    </td>
+                    <td style="width:15%;">
+                        <input type="text" class="form-control" style="width:100%" id="datepicker" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="btn-group">
+        <button class="btn btn-default" type="button" data-ng-click="goBack()">Nazad</button>
+        <button class="btn btn-success" type="submit" data-ng-click="updateRasporedEdit()" data-ng-disabled="updateRasporedDanForm.$invalid">Ažuriraj</button> 
+    </div>
+</form>
+<div class="alert alert-success" role="alert" data-ng-show="RasporedEditUpdateSucess">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    Podaci su uspešno ažurirani.
+</div>
+<div class="alert alert-danger" role="alert" data-ng-show="RasporedEditUpdateFailed">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    Greška prilikom ažuriranja, molimo pokušajte ponovo.
+</div>

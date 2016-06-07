@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DiplomskiDezurstvoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="ContextKey" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="Model" Type="varbinary(max)" Nullable="false" />
+    <Property Name="ProductVersion" Type="nvarchar" MaxLength="32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Asistenti">
+    <Key>
+      <PropertyRef Name="AsistentID" />
+    </Key>
+    <Property Name="AsistentID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ime" Type="nvarchar" MaxLength="72" Nullable="false" />
+    <Property Name="Prezime" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Sifra" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Telefon" Type="varchar" MaxLength="40" />
+  </EntityType>
+  <EntityType Name="AspNetRoles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="Name" Type="nvarchar" MaxLength="256" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUserClaims">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ClaimType" Type="nvarchar(max)" />
+    <Property Name="ClaimValue" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="AspNetUserLogins">
+    <Key>
+      <PropertyRef Name="LoginProvider" />
+      <PropertyRef Name="ProviderKey" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="LoginProvider" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ProviderKey" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUserRoles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="RoleId" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Address" Type="nvarchar(max)" />
+    <Property Name="City" Type="nvarchar(max)" />
+    <Property Name="State" Type="nvarchar(max)" />
+    <Property Name="PostalCode" Type="nvarchar(max)" />
+    <Property Name="Email" Type="nvarchar" MaxLength="256" />
+    <Property Name="EmailConfirmed" Type="bit" Nullable="false" />
+    <Property Name="PasswordHash" Type="nvarchar(max)" />
+    <Property Name="SecurityStamp" Type="nvarchar(max)" />
+    <Property Name="PhoneNumber" Type="nvarchar(max)" />
+    <Property Name="PhoneNumberConfirmed" Type="bit" Nullable="false" />
+    <Property Name="TwoFactorEnabled" Type="bit" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="datetime" />
+    <Property Name="LockoutEnabled" Type="bit" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="int" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="256" Nullable="false" />
+    <Property Name="IsAdmin" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Predmeti">
+    <Key>
+      <PropertyRef Name="PredmetID" />
+    </Key>
+    <Property Name="PredmetID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Naziv" Type="nvarchar" MaxLength="72" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Raspored">
+    <Key>
+      <PropertyRef Name="RasporedID" />
+    </Key>
+    <Property Name="RasporedID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RasporedMainID" Type="int" Nullable="false" />
+    <Property Name="Datum" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RasporedAsistenti">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RasporedID" Type="int" Nullable="false" />
+    <Property Name="AsistentID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Rasporedi">
+    <Key>
+      <PropertyRef Name="RasporedID" />
+    </Key>
+    <Property Name="RasporedID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Naziv" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RasporedPredmeti">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RasporedID" Type="int" Nullable="false" />
+    <Property Name="PredmetID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RasporedSale">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RasporedID" Type="int" Nullable="false" />
+    <Property Name="SalaID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Sale">
+    <Key>
+      <PropertyRef Name="SalaID" />
+    </Key>
+    <Property Name="SalaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Naziv" Type="nvarchar" MaxLength="72" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'DiplomskiDezurstvo.dbo.ViewUkupanBrojDezurstva' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="ViewUkupanBrojDezurstva">
+    <Key>
+      <PropertyRef Name="AsistentID" />
+      <PropertyRef Name="Ime" />
+      <PropertyRef Name="Prezime" />
+    </Key>
+    <Property Name="AsistentID" Type="int" Nullable="false" />
+    <Property Name="Ime" Type="nvarchar" MaxLength="72" Nullable="false" />
+    <Property Name="Prezime" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="UkupanBrojDezurstva" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'DiplomskiDezurstvo.dbo.ViewUserAktivnosti' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="ViewUserAktivnosti">
+    <Key>
+      <PropertyRef Name="AsistentID" />
+      <PropertyRef Name="Ime" />
+      <PropertyRef Name="Prezime" />
+      <PropertyRef Name="Sala" />
+      <PropertyRef Name="Datum" />
+    </Key>
+    <Property Name="AsistentID" Type="int" Nullable="false" />
+    <Property Name="Ime" Type="nvarchar" MaxLength="72" Nullable="false" />
+    <Property Name="Prezime" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Sala" Type="nvarchar" MaxLength="72" Nullable="false" />
+    <Property Name="Datum" Type="date" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserClaims" Type="Self.AspNetUserClaims" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserClaims">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserLogins" Type="Self.AspNetUserLogins" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserLogins">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+    <End Role="AspNetRoles" Type="Self.AspNetRoles" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetRoles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Raspored_dbo_Rasporedi_RasporedID">
+    <End Role="Rasporedi" Type="Self.Rasporedi" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Raspored" Type="Self.Raspored" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rasporedi">
+        <PropertyRef Name="RasporedID" />
+      </Principal>
+      <Dependent Role="Raspored">
+        <PropertyRef Name="RasporedMainID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_RasporedAsistenti_dbo_Asistenti_AsistentID">
+    <End Role="Asistenti" Type="Self.Asistenti" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="RasporedAsistenti" Type="Self.RasporedAsistenti" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Asistenti">
+        <PropertyRef Name="AsistentID" />
+      </Principal>
+      <Dependent Role="RasporedAsistenti">
+        <PropertyRef Name="AsistentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_RasporedAsistenti_dbo_Raspored_RasporedID">
+    <End Role="Raspored" Type="Self.Raspored" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="RasporedAsistenti" Type="Self.RasporedAsistenti" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Raspored">
+        <PropertyRef Name="RasporedID" />
+      </Principal>
+      <Dependent Role="RasporedAsistenti">
+        <PropertyRef Name="RasporedID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_RasporedPredmeti_dbo_Asistenti_PredmetID">
+    <End Role="Predmeti" Type="Self.Predmeti" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="RasporedPredmeti" Type="Self.RasporedPredmeti" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Predmeti">
+        <PropertyRef Name="PredmetID" />
+      </Principal>
+      <Dependent Role="RasporedPredmeti">
+        <PropertyRef Name="PredmetID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_RasporedPredmeti_dbo_Raspored_RasporedID">
+    <End Role="Raspored" Type="Self.Raspored" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="RasporedPredmeti" Type="Self.RasporedPredmeti" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Raspored">
+        <PropertyRef Name="RasporedID" />
+      </Principal>
+      <Dependent Role="RasporedPredmeti">
+        <PropertyRef Name="RasporedID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_RasporedSale_dbo_Raspored_RasporedID">
+    <End Role="Raspored" Type="Self.Raspored" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="RasporedSale" Type="Self.RasporedSale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Raspored">
+        <PropertyRef Name="RasporedID" />
+      </Principal>
+      <Dependent Role="RasporedSale">
+        <PropertyRef Name="RasporedID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_RasporedSale_dbo_Sale_SalaID">
+    <End Role="Sale" Type="Self.Sale" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="RasporedSale" Type="Self.RasporedSale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sale">
+        <PropertyRef Name="SalaID" />
+      </Principal>
+      <Dependent Role="RasporedSale">
+        <PropertyRef Name="SalaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DiplomskiDezurstvoModelStoreContainer">
+    <EntitySet Name="__MigrationHistory" EntityType="Self.__MigrationHistory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Asistenti" EntityType="Self.Asistenti" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetRoles" EntityType="Self.AspNetRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserClaims" EntityType="Self.AspNetUserClaims" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserLogins" EntityType="Self.AspNetUserLogins" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserRoles" EntityType="Self.AspNetUserRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUsers" EntityType="Self.AspNetUsers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Predmeti" EntityType="Self.Predmeti" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Raspored" EntityType="Self.Raspored" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RasporedAsistenti" EntityType="Self.RasporedAsistenti" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Rasporedi" EntityType="Self.Rasporedi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RasporedPredmeti" EntityType="Self.RasporedPredmeti" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RasporedSale" EntityType="Self.RasporedSale" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sale" EntityType="Self.Sale" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ViewUkupanBrojDezurstva" EntityType="Self.ViewUkupanBrojDezurstva" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [ViewUkupanBrojDezurstva].[AsistentID] AS [AsistentID], 
+    [ViewUkupanBrojDezurstva].[Ime] AS [Ime], 
+    [ViewUkupanBrojDezurstva].[Prezime] AS [Prezime], 
+    [ViewUkupanBrojDezurstva].[UkupanBrojDezurstva] AS [UkupanBrojDezurstva]
+    FROM [dbo].[ViewUkupanBrojDezurstva] AS [ViewUkupanBrojDezurstva]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ViewUserAktivnosti" EntityType="Self.ViewUserAktivnosti" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [ViewUserAktivnosti].[AsistentID] AS [AsistentID], 
+    [ViewUserAktivnosti].[Ime] AS [Ime], 
+    [ViewUserAktivnosti].[Prezime] AS [Prezime], 
+    [ViewUserAktivnosti].[Sala] AS [Sala], 
+    [ViewUserAktivnosti].[Datum] AS [Datum]
+    FROM [dbo].[ViewUserAktivnosti] AS [ViewUserAktivnosti]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserClaims" EntitySet="AspNetUserClaims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserLogins" EntitySet="AspNetUserLogins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+      <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Raspored_dbo_Rasporedi_RasporedID" Association="Self.FK_dbo_Raspored_dbo_Rasporedi_RasporedID">
+      <End Role="Rasporedi" EntitySet="Rasporedi" />
+      <End Role="Raspored" EntitySet="Raspored" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_RasporedAsistenti_dbo_Asistenti_AsistentID" Association="Self.FK_dbo_RasporedAsistenti_dbo_Asistenti_AsistentID">
+      <End Role="Asistenti" EntitySet="Asistenti" />
+      <End Role="RasporedAsistenti" EntitySet="RasporedAsistenti" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_RasporedAsistenti_dbo_Raspored_RasporedID" Association="Self.FK_dbo_RasporedAsistenti_dbo_Raspored_RasporedID">
+      <End Role="Raspored" EntitySet="Raspored" />
+      <End Role="RasporedAsistenti" EntitySet="RasporedAsistenti" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_RasporedPredmeti_dbo_Asistenti_PredmetID" Association="Self.FK_dbo_RasporedPredmeti_dbo_Asistenti_PredmetID">
+      <End Role="Predmeti" EntitySet="Predmeti" />
+      <End Role="RasporedPredmeti" EntitySet="RasporedPredmeti" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_RasporedPredmeti_dbo_Raspored_RasporedID" Association="Self.FK_dbo_RasporedPredmeti_dbo_Raspored_RasporedID">
+      <End Role="Raspored" EntitySet="Raspored" />
+      <End Role="RasporedPredmeti" EntitySet="RasporedPredmeti" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_RasporedSale_dbo_Raspored_RasporedID" Association="Self.FK_dbo_RasporedSale_dbo_Raspored_RasporedID">
+      <End Role="Raspored" EntitySet="Raspored" />
+      <End Role="RasporedSale" EntitySet="RasporedSale" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_RasporedSale_dbo_Sale_SalaID" Association="Self.FK_dbo_RasporedSale_dbo_Sale_SalaID">
+      <End Role="Sale" EntitySet="Sale" />
+      <End Role="RasporedSale" EntitySet="RasporedSale" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

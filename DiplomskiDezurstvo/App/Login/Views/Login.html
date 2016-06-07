@@ -1,0 +1,21 @@
+﻿<form name="loginForm" id="loginForm">
+    <div class="input-group input-group-lg">
+        <span class="input-group-addon" id="basic-addon1">
+            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+        </span>
+        <input type="text" class="form-control" data-ng-model="username" placeholder="Email adresa" aria-describedby="basic-addon1" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" required>
+    </div>
+    <div class="input-group input-group-lg">
+        <span class="input-group-addon" id="basic-addon1">
+            <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+        </span>
+        <input type="password" class="form-control" data-ng-model="password" placeholder="Lozinka" aria-describedby="basic-addon1" required>
+    </div>
+    <button type="submit" class="btn btn-default btn-lg" data-ng-click="userLogin()" data-ng-disabled="loginForm.$invalid">
+        <span class="spinner" data-ng-show="loading"><i class="glyphicon glyphicon-refresh"></i></span>
+        Prijavi me
+    </button>
+    <a class="password-recovery" href="#" data-ng-click="passwordRecovery()">Zaboravljena lozinka</a>
+</form>
+
+<div class="alert alert-danger" role="alert" data-ng-show="message"><strong>Greska:</strong> {{message}}</div>

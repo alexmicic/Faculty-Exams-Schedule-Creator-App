@@ -1,0 +1,25 @@
+﻿<div class="table-responsive" data-ng-show="!emptyList">
+    <h4>Vaše predstojeće aktivnosti su:</h4>
+    <table class="table table-striped table-hover aktivnosti-list" data-ng-model="ListaAktuelnosti">
+        <thead>
+            <tr>
+                <th>Sala</th>
+                <th>Datum</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr data-ng-repeat="user in ListaAktuelnosti">
+                <td>{{user.Sala}}</td>
+                <td>{{user.Datum | date: 'dd-MM-yyyy'}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div data-ng-show="!emptyList">
+    <button class="btn btn-warning" type="button" data-ng-click="sendEmail()">Kontaktiraj administratora</button>
+</div>
+
+<div class="alert alert-info" data-ng-show="emptyList">
+    <strong>Odlično!</strong> Nema predstojećih aktivnosti.
+</div>

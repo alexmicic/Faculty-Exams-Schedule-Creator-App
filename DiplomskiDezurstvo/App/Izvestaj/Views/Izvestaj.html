@@ -1,0 +1,32 @@
+﻿<div class="table-responsive">
+    <div id="izvestajTabela">
+        <table class="table table-striped table-hover user-list" data-ng-model="Izvestaj">
+            <thead>
+                <tr>
+                    <th class="text-left">Asistent</th>
+                    <th class="text-center">Ukupan broj dežurstva</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-ng-repeat="asistent in Izvestaj">
+                    <td class="text-left">{{asistent.Ime}} {{asistent.Prezime}}</td>
+                    <td class="text-center">{{asistent.UkupanBrojDezurstva}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <button type="button" class="btn btn-primary" data-ng-click="print('izvestajTabela')">
+        <i class="glyphicon glyphicon-print"></i>
+        Štampaj
+    </button>
+    <br /><br />
+    <h4>Grafički prikaz</h4>
+    <hr />
+    <div id="izvestajGraph" data-ng-model="Izvestaj">
+        <div class="chart-horiz">
+            <ul class="chart">
+                <li data-ng-repeat="asistent in Izvestaj" class="past" title="{{asistent.Ime}} {{asistent.Prezime}}"><span class="bar" data-number="{{asistent.UkupanBrojDezurstva}}"></span><span class="number">{{asistent.UkupanBrojDezurstva}}</span></li>
+            </ul>
+        </div>
+    </div>
+</div>

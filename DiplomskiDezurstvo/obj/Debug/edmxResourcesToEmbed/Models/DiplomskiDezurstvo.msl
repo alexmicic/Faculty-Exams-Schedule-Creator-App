@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DiplomskiDezurstvoModelStoreContainer" CdmEntityContainer="DiplomskiDezurstvoEntities">
+    <EntitySetMapping Name="C__MigrationHistory">
+      <EntityTypeMapping TypeName="DiplomskiDezurstvoModel.C__MigrationHistory">
+        <MappingFragment StoreEntitySet="__MigrationHistory">
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+          <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Asistentis">
+      <EntityTypeMapping TypeName="DiplomskiDezurstvoModel.Asistenti">
+        <MappingFragment StoreEntitySet="Asistenti">
+          <ScalarProperty Name="AsistentID" ColumnName="AsistentID" />
+          <ScalarProperty Name="Ime" ColumnName="Ime" />
+          <ScalarProperty Name="Prezime" ColumnName="Prezime" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Sifra" ColumnName="Sifra" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetRoles">
+      <EntityTypeMapping TypeName="DiplomskiDezurstvoModel.AspNetRole">
+        <MappingFragment StoreEntitySet="AspNetRoles">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserClaims">
+      <EntityTypeMapping TypeName="DiplomskiDezurstvoModel.AspNetUserClaim">
+        <MappingFragment StoreEntitySet="AspNetUserClaims">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ClaimType" ColumnName="ClaimType" />
+          <ScalarProperty Name="ClaimValue" ColumnName="ClaimValue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserLogins">
+      <EntityTypeMapping TypeName="DiplomskiDezurstvoModel.AspNetUserLogin">
+        <MappingFragment StoreEntitySet="AspNetUserLogins">
+          <ScalarProperty Name="LoginProvider" ColumnName="LoginProvider" />
+          <ScalarProperty Name="ProviderKey" ColumnName="ProviderKey" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUsers">
+      <EntityTypeMapping TypeName="DiplomskiDezurstvoModel.AspNetUser">
+        <MappingFragment StoreEntitySet="AspNetUsers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+          <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+          <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+          <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+          <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="AspNetUserRoles" TypeName="DiplomskiDezurstvoModel.AspNetUserRoles" StoreEntitySet="AspNetUserRoles">
+      <EndProperty Name="AspNetRoles">
+        <ScalarProperty Name="Id" ColumnName="RoleId" />
+      </EndProperty>
+      <EndProperty Name="AspNetUsers">
+        <ScalarProperty Name="Id" ColumnName="UserId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="Predmetis">
+      <EntityTypeMapping TypeName="DiplomskiDezurstvoModel.Predmeti">
+        <MappingFragment StoreEntitySet="Predmeti">
+          <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+          <ScalarProperty Name="PredmetID" ColumnName="PredmetID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sales">
+      <EntityTypeMapping TypeName="DiplomskiDezurstvoModel.Sale">
+        <MappingFragment StoreEntitySet="Sale">
+          <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+          <ScalarProperty Name="SalaID" ColumnName="SalaID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rasporeds">
+      <EntityTypeMapping TypeName="DiplomskiDezurstvoModel.Raspored">
+        <MappingFragment StoreEntitySet="Raspored">
+          <ScalarProperty Name="Datum" ColumnName="Datum" />
+          <ScalarProperty Name="RasporedMainID" ColumnName="RasporedMainID" />
+          <ScalarProperty Name="RasporedID" ColumnName="RasporedID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rasporedis">
+      <EntityTypeMapping TypeName="DiplomskiDezurstvoModel.Rasporedi">
+        <MappingFragment StoreEntitySet="Rasporedi">
+          <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+          <ScalarProperty Name="RasporedID" ColumnName="RasporedID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RasporedAsistentis">
+      <EntityTypeMapping TypeName="DiplomskiDezurstvoModel.RasporedAsistenti">
+        <MappingFragment StoreEntitySet="RasporedAsistenti">
+          <ScalarProperty Name="AsistentID" ColumnName="AsistentID" />
+          <ScalarProperty Name="RasporedID" ColumnName="RasporedID" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RasporedPredmetis">
+      <EntityTypeMapping TypeName="DiplomskiDezurstvoModel.RasporedPredmeti">
+        <MappingFragment StoreEntitySet="RasporedPredmeti">
+          <ScalarProperty Name="PredmetID" ColumnName="PredmetID" />
+          <ScalarProperty Name="RasporedID" ColumnName="RasporedID" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RasporedSales">
+      <EntityTypeMapping TypeName="DiplomskiDezurstvoModel.RasporedSale">
+        <MappingFragment StoreEntitySet="RasporedSale">
+          <ScalarProperty Name="SalaID" ColumnName="SalaID" />
+          <ScalarProperty Name="RasporedID" ColumnName="RasporedID" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ViewUkupanBrojDezurstvas">
+      <EntityTypeMapping TypeName="DiplomskiDezurstvoModel.ViewUkupanBrojDezurstva">
+        <MappingFragment StoreEntitySet="ViewUkupanBrojDezurstva">
+          <ScalarProperty Name="UkupanBrojDezurstva" ColumnName="UkupanBrojDezurstva" />
+          <ScalarProperty Name="Prezime" ColumnName="Prezime" />
+          <ScalarProperty Name="Ime" ColumnName="Ime" />
+          <ScalarProperty Name="AsistentID" ColumnName="AsistentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ViewUserAktivnostis">
+      <EntityTypeMapping TypeName="DiplomskiDezurstvoModel.ViewUserAktivnosti">
+        <MappingFragment StoreEntitySet="ViewUserAktivnosti">
+          <ScalarProperty Name="Datum" ColumnName="Datum" />
+          <ScalarProperty Name="Sala" ColumnName="Sala" />
+          <ScalarProperty Name="Prezime" ColumnName="Prezime" />
+          <ScalarProperty Name="Ime" ColumnName="Ime" />
+          <ScalarProperty Name="AsistentID" ColumnName="AsistentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

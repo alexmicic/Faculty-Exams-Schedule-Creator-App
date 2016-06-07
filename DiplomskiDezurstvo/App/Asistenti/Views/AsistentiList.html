@@ -1,0 +1,70 @@
+﻿<div class="table-responsive">
+    <table class="table table-striped table-hover user-list" data-ng-model="ListaAsistenata">
+        <thead>
+            <tr>
+                <th>Ime</th>
+                <th>Prezime</th>
+                <th>Email</th>
+                <th>Telefon</th>
+                <th>Akcija</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr data-ng-repeat="asistent in ListaAsistenata">
+                <td>{{asistent.Ime}}</td>
+                <td>{{asistent.Prezime}}</td>
+                <td>{{asistent.Email}}</td>
+                <td>{{asistent.Telefon}}</td>
+                <td>
+                    <button type="button" class="btn btn-success" data-ng-click="updateUser(asistent.AsistentID)" title="Azuriraj" data-toggle="tooltip" tooltip>
+                        <i class="glyphicon glyphicon-pencil"></i>
+                    </button>
+                    <button type="button" class="btn btn-danger" data-ng-click="deleteUser(asistent.AsistentID)" title="Obrisi" data-toggle="tooltip" tooltip>
+                        <i class="glyphicon glyphicon-trash"></i>
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<button type="button" class="btn btn-primary add-entry" data-ng-click="showForm()" data-ng-class="class" title="Dodaj Asistenta">
+    <span>Dodaj Asistenta</span>
+    <i class="glyphicon glyphicon-chevron-down"></i>
+    <i class="glyphicon glyphicon-chevron-up"></i>
+</button>
+
+<div class="entry-form" data-ng-hide="!showEntryForm">
+    <form name="addUserForm" id="addUserForm">
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">Ime</span>
+            <input type="text" class="form-control" aria-describedby="basic-addon1" data-ng-model="asistent.Ime" required>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon2">Prezime</span>
+            <input type="text" class="form-control" aria-describedby="basic-addon2" data-ng-model="asistent.Prezime" required>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon3">Email</span>
+            <input type="text" class="form-control" aria-describedby="basic-addon3" data-ng-model="asistent.Email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" required>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon4">Sifra</span>
+            <input type="text" id="userPassword" class="form-control" aria-describedby="basic-addon4" data-ng-model="asistent.Password" readonly>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon5">Telefon</span>
+            <input type="text" class="form-control" aria-describedby="basic-addon5" data-ng-model="asistent.Telefon">
+        </div>
+        <div class="input-group">
+            <button class="btn btn-success" type="submit" data-ng-click="addUser()" data-ng-disabled="addUserForm.$invalid">Dodaj</button>
+        </div>
+    </form>
+</div>
+<div class="alert alert-success" role="alert" data-ng-show="UserAddSucess">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    Asistent je uspešno dodat i email sa korisičkim podacima je poslat.
+</div>
+<div class="alert alert-danger" role="alert" data-ng-show="UserAddFailed">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    Greška prilikom dodavanja (proverite da već ne postoji korisik sa istom email adresom), molimo pokušajte ponovo.
+</div>

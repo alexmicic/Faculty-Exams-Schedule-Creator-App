@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Sale";
+}
+
+@section scripts {
+    <script src="~/App/Sale/App.js"></script>
+    <script src="~/App/Sale/ViewModels/SalaViewModel.js"></script>
+}
+<div class="sale container">
+    <div class="page-header">
+        <h3>@ViewBag.Title</h3>
+    </div>
+    <div data-ng-view></div>
+</div>

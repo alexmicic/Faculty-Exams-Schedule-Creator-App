@@ -1,0 +1,20 @@
+﻿<h4>Ažuriranje podataka</h4>
+<div class="entry-form">
+    <form name="editPredmetForm" id="editPredmetForm">
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">Naziv</span>
+            <input type="text" class="form-control" aria-describedby="basic-addon1" data-ng-model="predmet.Naziv" required>
+        </div>
+        <div class="input-group">
+            <button class="btn btn-success" type="submit" data-ng-click="updatePredmet()" data-ng-disabled="editPredmetForm.$invalid">Ažuriraj</button>
+        </div>
+    </form>
+</div>
+<div class="alert alert-success" role="alert" data-ng-show="PredmetUpdateSucess">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    Podaci su uspešno ažurirani.
+</div>
+<div class="alert alert-danger" role="alert" data-ng-show="PredmetUpdateFailed">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    Greška prilikom ažuriranja, molimo pokušajte ponovo.
+</div>

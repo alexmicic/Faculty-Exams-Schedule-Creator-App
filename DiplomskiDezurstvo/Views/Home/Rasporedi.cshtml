@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Rasporedi po ispitnom roku";
+}
+
+@section scripts {
+    <script src="~/App/Rasporedi/App.js"></script>
+    <script src="~/App/Rasporedi/ViewModels/RasporedViewModel.js"></script>
+    <script src="~/App/Rasporedi/ViewModels/RasporedDaniViewModel.js"></script>
+    <script src="~/App/Rasporedi/ViewModels/RasporedEditViewModel.js"></script>
+
+    <script src="~/Scripts/select2.min.js"></script>
+}
+
+@section css {
+    <link href="~/Content/select2.min.css" rel="stylesheet" type="text/css" />
+}
+
+<div class="asistenti container">
+    <div class="page-header">
+        <h3>@ViewBag.Title</h3>
+    </div>
+    <div data-ng-view></div>
+</div>

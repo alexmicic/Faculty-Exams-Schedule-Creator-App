@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Prijava za aplikaciju";
+}
+
+@section scripts {
+    <script src="~/App/Login/App.js"></script>
+}
+
+@section jsCode {
+    angular.bootstrap(document.getElementById("login"), ['login']);
+}
+
+<div id="login" class="login" data-ng-controller="loginViewModel">
+    <div data-ng-view></div>
+</div>
+

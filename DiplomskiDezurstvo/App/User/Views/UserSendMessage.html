@@ -1,0 +1,19 @@
+﻿<h4>Kontaktiraj administratora</h4>
+<form name="sendAdminMessage" id="sendAdminMessage">
+    <div class="form-group">
+        <textarea class="form-control user-message" name="AdminMessage" data-ng-model="AdminMessage" placeholder="Unesite poruku ovde" required maxlength="2000"></textarea>
+    </div>   
+    <div class="btn-group">
+        <button class="btn btn-default" type="button" data-ng-click="goBack()">Nazad</button>
+        <button class="btn btn-success" type="submit" data-ng-click="send()" data-ng-disabled="sendAdminMessage.$invalid">Pošalji</button>
+    </div>
+</form>
+
+<div class="alert alert-success" role="alert" data-ng-show="sendSuccess">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    Email je uspešno poslat.
+</div>
+<div class="alert alert-danger" role="alert" data-ng-show="sendFaild">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    Greška prilikom slanja, molimo pokušajte ponovo.
+</div>

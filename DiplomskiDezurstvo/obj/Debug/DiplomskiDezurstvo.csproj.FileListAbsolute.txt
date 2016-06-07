@@ -1,0 +1,189 @@
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\AspNetIdentity2WebApiCustomize.dll.config
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\AspNetIdentity2WebApiCustomize.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\AspNetIdentity2WebApiCustomize.pdb
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Antlr3.Runtime.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\EntityFramework.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\EntityFramework.SqlServer.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.Owin.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.Owin.Security.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.Owin.Security.Google.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.Web.Infrastructure.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Newtonsoft.Json.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Owin.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\System.Net.Http.Formatting.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\System.Web.Helpers.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\System.Web.Http.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\System.Web.Http.Owin.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\System.Web.Http.WebHost.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\System.Web.Mvc.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\System.Web.Optimization.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\System.Web.Razor.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\System.Web.WebPages.Deployment.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\System.Web.WebPages.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\System.Web.WebPages.Razor.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\WebGrease.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Antlr3.Runtime.pdb
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.Owin.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.Owin.Security.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.Owin.Security.Google.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Newtonsoft.Json.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\System.Net.Http.Formatting.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\System.Web.Helpers.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\System.Web.Http.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\System.Web.Http.Owin.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\System.Web.Http.WebHost.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\System.Web.Mvc.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\System.Web.Razor.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\System.Web.WebPages.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\System.Web.WebPages.Deployment.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\System.Web.WebPages.Razor.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\System.Web.Optimization.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\EntityFramework.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\EntityFramework.SqlServer.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\obj\Debug\AspNetIdentity2WebApiCustomize.dll
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\obj\Debug\AspNetIdentity2WebApiCustomize.pdb
+E:\Diplomski\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApi-RBA-master\AspNetIdentity2WebApiCustomize\obj\Debug\DiplomskiDezurstvo.csprojResolveAssemblyReference.cache
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\AspNetIdentity2WebApiCustomize.dll.config
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\AspNetIdentity2WebApiCustomize.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\AspNetIdentity2WebApiCustomize.pdb
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Antlr3.Runtime.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\EntityFramework.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\EntityFramework.SqlServer.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.Google.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Web.Infrastructure.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Newtonsoft.Json.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Owin.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Net.Http.Formatting.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Helpers.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Http.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Http.Owin.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Http.WebHost.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Mvc.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Optimization.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Razor.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.WebPages.Deployment.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.WebPages.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.WebPages.Razor.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\WebGrease.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Antlr3.Runtime.pdb
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.Google.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Newtonsoft.Json.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Net.Http.Formatting.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Helpers.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Http.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Http.Owin.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Http.WebHost.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Mvc.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Razor.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.WebPages.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.WebPages.Deployment.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.WebPages.Razor.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Optimization.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\EntityFramework.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\EntityFramework.SqlServer.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\obj\Debug\AspNetIdentity2WebApiCustomize.dll
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\obj\Debug\AspNetIdentity2WebApiCustomize.pdb
+E:\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\obj\Debug\DiplomskiDezurstvo.csprojResolveAssemblyReference.cache
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\AspNetIdentity2WebApiCustomize.dll.config
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\AspNetIdentity2WebApiCustomize.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\AspNetIdentity2WebApiCustomize.pdb
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Antlr3.Runtime.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\EntityFramework.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\EntityFramework.SqlServer.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.AspNet.Identity.Core.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.Cookies.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.Facebook.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.Google.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.OAuth.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.Twitter.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Web.Infrastructure.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Newtonsoft.Json.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Owin.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Net.Http.Formatting.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Helpers.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Http.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Http.Owin.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Http.WebHost.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Mvc.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Optimization.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Razor.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.WebPages.Deployment.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.WebPages.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.WebPages.Razor.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\WebGrease.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Antlr3.Runtime.pdb
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.Cookies.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.Facebook.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.Google.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.OAuth.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.Owin.Security.Twitter.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Newtonsoft.Json.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Net.Http.Formatting.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Helpers.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Http.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Http.Owin.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Http.WebHost.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Mvc.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Razor.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.WebPages.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.WebPages.Deployment.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.WebPages.Razor.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\System.Web.Optimization.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\EntityFramework.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\EntityFramework.SqlServer.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.AspNet.Identity.Core.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\obj\Debug\DiplomskiDezurstvo.csprojResolveAssemblyReference.cache
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\obj\Debug\AspNetIdentity2WebApiCustomize.dll
+F:\My documents\FAKLUTET\Diplomski\DiplomskiDezurstvoMAIN\DiplomskiDezurstvo\obj\Debug\AspNetIdentity2WebApiCustomize.pdb
