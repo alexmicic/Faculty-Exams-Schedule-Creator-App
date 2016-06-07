@@ -1,4 +1,4 @@
-# Faculty-Exams-Schedule-Creation-App
+# Faculty-Exams-Schedule-Creator-App
 
 ## About
 This application is created as my faculty final work. It is built to be used in faculty administration and it should allow:
