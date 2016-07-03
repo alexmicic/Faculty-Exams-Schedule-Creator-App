@@ -20,5 +20,5 @@ TODO
 * HTML5
 * CSS3
 * Bootstrap framework
-* jQUery
+* jQuery
 * AngularJS framework
